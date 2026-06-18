@@ -1177,6 +1177,8 @@ msgstr "Discard secret"
 #: src/seedsigner/views/seed_views.py
 msgid "View seed words"
 msgstr "View secret words"
+msgid "View Seed Words"
+msgstr "View Secret Words"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Export as SeedQR"
