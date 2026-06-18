@@ -435,7 +435,7 @@ msgstr "Confirm Address"
 #: src/seedsigner/gui/screens/seed_screens.py
 #: src/seedsigner/views/seed_views.py
 msgid "Sign message"
-msgstr "Sign message"
+msgstr "Sign a message"
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "derivation path"
@@ -497,7 +497,7 @@ msgstr "Settings updated..."
 
 #: src/seedsigner/gui/screens/settings_screens.py src/seedsigner/views/view.py
 msgid "Home"
-msgstr "Home"
+msgstr "Menu"
 
 #: src/seedsigner/gui/screens/tools_screens.py
 msgid "click a button"
@@ -577,7 +577,7 @@ msgstr "24th Word"
 #: src/seedsigner/gui/screens/tools_screens.py
 #: src/seedsigner/views/seed_views.py src/seedsigner/views/tools_views.py
 msgid "Address Explorer"
-msgstr "Address Explorer"
+msgstr "Derive Addresses"
 
 #. a label for a BIP-380-ish Output Descriptor
 #: src/seedsigner/gui/screens/tools_screens.py
@@ -840,17 +840,17 @@ msgstr "Scan a secret"
 #: src/seedsigner/views/psbt_views.py src/seedsigner/views/seed_views.py
 #: src/seedsigner/views/tools_views.py
 msgid "Enter 12-word seed"
-msgstr "Enter 12-word secret"
+msgstr "Input 12-word secret"
 
 #: src/seedsigner/views/psbt_views.py src/seedsigner/views/seed_views.py
 #: src/seedsigner/views/tools_views.py
 msgid "Enter 24-word seed"
-msgstr "Enter 24-word secret"
+msgstr "Input 24-word secret"
 
 #: src/seedsigner/views/psbt_views.py src/seedsigner/views/seed_views.py
 #: src/seedsigner/views/tools_views.py
 msgid "Enter Electrum seed"
-msgstr "Enter Electrum secret"
+msgstr "Input Electrum secret"
 
 #. Inserts fingerprint w/"?" to indicate that this seed can't sign the current
 #. PSBT
@@ -1043,10 +1043,12 @@ msgstr "With support from:"
 #: src/seedsigner/views/seed_views.py
 msgid "Load a seed"
 msgstr "Load a secret"
+msgid "Load A Seed"
+msgstr "Load a Secret"
 
 #: src/seedsigner/views/seed_views.py
 msgid "In-Memory Seeds"
-msgstr "In-Memory Secrets"
+msgstr "Loaded Secrets"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Load the seed to verify"
@@ -1078,7 +1080,7 @@ msgstr "Create a secret"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Load a Seed"
-msgstr "Load a Secret"
+msgstr "Load a secret"
 
 #. Inserts the word number (e.g. "Seed Word #6")
 #: src/seedsigner/views/seed_views.py
@@ -1144,7 +1146,7 @@ msgstr "Wipe secret {} from the device?"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Discard Seed?"
-msgstr "Discard Secret?"
+msgstr "Discard secret?"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Electrum Warning"
@@ -1160,7 +1162,7 @@ msgstr "Scan transaction"
 
 #: src/seedsigner/views/seed_views.py src/seedsigner/views/tools_views.py
 msgid "Address explorer"
-msgstr "Address explorer"
+msgstr "Derive addresses"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Backup seed"
@@ -1168,11 +1170,15 @@ msgstr "Backup secret"
 
 #: src/seedsigner/views/seed_views.py
 msgid "BIP-85 child seed"
-msgstr "BIP-85 child secret"
+msgstr "Derive a secret"
+msgid "BIP-85 Child Seed"
+msgstr "Derive a secret"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Discard seed"
-msgstr "Discard secret"
+msgstr "Discard this secret"
+msgid "Discard Seed"
+msgstr "Discard this secret"
 
 #: src/seedsigner/views/seed_views.py
 msgid "View seed words"
@@ -1186,11 +1192,11 @@ msgstr "Export as SecretQR"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Backup Seed"
-msgstr "Show Secret"
+msgstr "Show secret"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Export Xpub"
-msgstr "Export Xpub"
+msgstr "Export xpub"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Xpub QR Format"
