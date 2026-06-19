@@ -1038,7 +1038,7 @@ msgstr "Back to Main Menu"
 #. This is on the opening splash screen, displayed above the HRF logo
 #: src/seedsigner/views/screensaver.py
 msgid "With support from:"
-msgstr "With support from:"
+msgstr "Made in"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Load a seed"
