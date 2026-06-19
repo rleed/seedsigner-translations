@@ -1042,13 +1042,11 @@ msgstr "Made in"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Load a seed"
-msgstr "Load a secret"
-msgid "Load A Seed"
-msgstr "Load a Secret"
+msgstr "Load another secret"
 
 #: src/seedsigner/views/seed_views.py
 msgid "In-Memory Seeds"
-msgstr "Loaded Secrets"
+msgstr "Loaded Identities"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Load the seed to verify"
@@ -1060,7 +1058,7 @@ msgstr "Select secret to verify"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Sign Message"
-msgstr "Sign Message"
+msgstr "Sign a message"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Load the seed to sign with"
@@ -1076,11 +1074,11 @@ msgstr "Scan a SecretQR"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Create a seed"
-msgstr "Create a secret"
+msgstr "Create a new secret"
 
 #: src/seedsigner/views/seed_views.py
-msgid "Load a Seed"
-msgstr "Load a secret"
+msgid "Load A Seed"
+msgstr "Load a Secret"
 
 #. Inserts the word number (e.g. "Seed Word #6")
 #: src/seedsigner/views/seed_views.py
@@ -1166,7 +1164,7 @@ msgstr "Derive addresses"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Backup seed"
-msgstr "Backup secret"
+msgstr "Show secret"
 
 #: src/seedsigner/views/seed_views.py
 msgid "BIP-85 child seed"
@@ -1184,7 +1182,7 @@ msgstr "Discard this secret"
 msgid "View seed words"
 msgstr "View secret words"
 msgid "View Seed Words"
-msgstr "View Secret Words"
+msgstr "View secret words"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Export as SeedQR"
@@ -1192,7 +1190,7 @@ msgstr "Export as SecretQR"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Backup Seed"
-msgstr "Show secret"
+msgstr "Show Secret"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Export Xpub"
@@ -1428,8 +1426,12 @@ msgid "Settings updated in temporary memory"
 msgstr "Settings updated in temporary memory"
 
 #: src/seedsigner/views/tools_views.py
-msgid "New seed"
-msgstr "New secret"
+msgid "New seed from camera"
+msgstr "Camera-noise secret"
+
+#: src/seedsigner/views/tools_views.py
+msgid "New seed from dice"
+msgstr "Dice-roll secret"
 
 #: src/seedsigner/views/tools_views.py
 msgid "Calc 12th/24th word"
